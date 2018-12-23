@@ -19,7 +19,7 @@
 }
 
 #whyCard .quick{
-    background-image: url(../img/services.jpeg); 
+    background-image: url(../img/quick.jpeg); 
 }
 
 #whyCard .customer{
@@ -58,10 +58,7 @@
 }
 
 /* Contact */
-#contactUs{
-    padding: 50px;
-    background-image: url(../img/contact.jpeg);
-}
+
 
 input,
 textarea,

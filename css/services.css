@@ -4,7 +4,7 @@
 /* Landing Page */
 #landingPage {
     height: 100vh;
-    background-image: url(../img/services.jpeg);
+    background-image: url(../img/servicesPage.jpeg);
 }
 
 .service{
@@ -17,11 +17,11 @@
 }
 
 .line-credit{
-    background-image: url(../img/renovation.jpeg);
+    background-image: url(../img/credit.jpeg);
 }
 
 .cash-advances{
-    background-image: url(../img/renovation.jpeg);
+    background-image: url(../img/cashAdvance.jpg);
 }
 
 .restaurant{
@@ -37,7 +37,7 @@
 }
 
 .working-capital{
-    background-image: url(../img/renovation.jpeg);
+    background-image: url(../img/capital.jpg);
 }
 
 .startup {
