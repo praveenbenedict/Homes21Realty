@@ -1,0 +1,26 @@
+body{
+    margin:0px;
+    overflow-x:hidden;
+}
+.vertical-align{
+    display: flex!important;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.text-center{
+    text-align: center;
+}
+.container{
+    overflow: hidden;
+    display: flex;
+}
+.background-image{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.white-font{
+    color: white;
+}

@@ -1,0 +1,69 @@
+*{
+    color: white;
+}
+/* Landing Page */
+#landingPage {
+    height: 100vh;
+    background-image: url(../img/services.jpeg);
+}
+
+.service{
+    height: 45vh;
+    padding: 40px;
+}
+
+.renovation{
+    background-image: url(../img/renovation.jpeg);
+}
+
+.line-credit{
+    background-image: url(../img/renovation.jpeg);
+}
+
+.cash-advances{
+    background-image: url(../img/renovation.jpeg);
+}
+
+.restaurant{
+    background-image: url(../img/restaurant.jpeg);
+}
+
+.pharmacy{
+    background-image: url(../img/pharmacy.jpg);
+}
+
+.construction{
+    background-image: url(../img/construction.jpeg);
+}
+
+.working-capital{
+    background-image: url(../img/renovation.jpeg);
+}
+
+.startup {
+    background-image: url(../img/startup.jpeg);
+}
+
+.gas-station {
+    background-image: url(../img/gas\ station.jpeg);
+}
+
+.deli-store{
+    background-image: url(../img/deli.jpeg);
+}
+
+.motel{
+    background-image: url(../img//motel.jpg);
+}
+
+.dollar-store{
+    background-image: url(../img/cash-register-78741_1280.jpg);
+}
+
+.real-estate{
+    background-image: url(../img/real-estate.jpeg);
+}
+
+.warehouse{
+    background-image: url(../img/Warehouse.jpeg);
+}
