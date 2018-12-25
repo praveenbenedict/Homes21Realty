@@ -60,22 +60,17 @@
 /* Contact */
 
 
-input,
-textarea,
-select{
-    display: block;
-    width: 100%;
-    height: 40px;
-    margin-bottom: 20px;
-    border-radius: 0px;
-    border: 1px solid white;
-    background: transparent;
-    padding: 10px 10px 10px 10px;
-    color: white;
-}
+
 
 @media only screen and (max-width: 767px) {
     /* For Mobile Devices */
+
+    #landingPage h2{
+        font-size: 1.7rem;
+    }
+    #landingPage h3{
+        font-size: 1.3rem;
+    }
 
     h1{
         font-size: 1.8rem;
@@ -92,6 +87,10 @@ select{
         padding: 40px 10px 40px 10px;
     }
 
+    #craftedLoans{
+        min-height: 110vh;
+    }
+
     /* services link */
     #servicesLink .section-heading .break{
         display: block;
@@ -101,6 +100,8 @@ select{
         font-size: 1.5rem;
         margin-bottom: 30px;
     }
+
+    
 }
 
 @media only screen and (min-width: 768px) {

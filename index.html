@@ -14,6 +14,30 @@
 
 <body>
 
+    <div id="MenuIcon">
+        <div id="MenuLine"></div>
+    </div>
+
+    <div id="MainMenu">
+        <div id="navlogo">
+            <img src="img/logos/navlogo.png" height="75px" width="75px" />
+        </div>
+        <ul>
+            <li> <a href="./index.html">HOME</a>
+                <div class="line"></div>
+            </li>
+            <li> <a href="./services.html">SERVICES</a>
+                <div class="line"></div>
+            </li>
+            <li> <a href="#contactUs">CONTACT US</a>
+                <div class="line"></div>
+            </li>
+        </ul>
+        <div id="close">
+            <img src="img/logos/Close.png" height="30px" width="30px" />
+        </div>
+    </div>
+
     <header id="landingPage" class="container-fluid vertical-align background-image">
 
         <h2 class="text-center">Uncomplicated Lending</h2> <br>
@@ -77,7 +101,7 @@
 
             </section>
             <section class="col-12 col-sm-12 col-md-6 col-lg-6 right-content background-image section-content vertical-align">
-                <h1 class = "section-heading">Every Loan, Crafted For You</h1>
+                <h1 class="section-heading">Every Loan, Crafted For You</h1>
                 <p>Ipsum exercitation id nostrud eiusmod dolore id officia reprehenderit exercitation non aute ut minim
                     mollit. Culpa fugiat veniam dolore ut adipisicing ea Lorem sunt ullamco fugiat. Non cillum
                     adipisicing adipisicing deserunt do quis cillum veniam do. Ipsum fugiat laboris sint sit eiusmod.
@@ -94,7 +118,8 @@
     <section id="servicesLink" class="container-fluid">
         <section class="row">
             <section class="col-12 text-center">
-                <h1 class="section-heading">Why Wait? <span class="break"></span> Get Ready To Prosper With Our Services.</h1>
+                <h1 class="section-heading">Why Wait? <span class="break"></span> Get Ready To Prosper With Our
+                    Services.</h1>
 
                 <h4><a href="./services.html">View Services</a></h4>
             </section>
@@ -106,15 +131,15 @@
             <h1 class="text-center">Contact Us</h1>
         </section>
         <section class="section-body text-center">
-            
+
             <h4 class="call">Call us directly at <a href="tel:3478671200">3478671200</a></h4>
 
             <form action="" method="post">
                 <input type="text" name="name" placeholder="Name" id=""> <br>
-                <input type="text" name="city" id="" placeholder = "City"> <br>
+                <input type="text" name="city" id="" placeholder="City"> <br>
                 <input type="text" name="state" placeholder="State" id=""> <br>
                 <input type="number" name="phone" placeholder="Phone Number" id=""> <br>
-                <input type="number" name = "LoanAmount" placeholder="Requested Loan Amount"> <br>
+                <input type="number" name="LoanAmount" placeholder="Requested Loan Amount"> <br>
                 <select name="LoanType" id="">
                     <option value="Rehab and Renovation">Rehab and Renovation</option>
                     <option value="Line of Credit">Line of Credit</option>
@@ -131,23 +156,24 @@
                     <option value="Commercial Real Estate Loans">Commercial Real Estate Loans</option>
                     <option value="Warehouse Loans">Warehouse Loans</option>
                 </select><br>
-                <textarea name="Comments" id="" cols="30" rows="10"></textarea>
-                <input type="submit" value = "Submit">
+                <textarea name="Comments" id="" cols="30" rows="10" placeholder="Comments">Comments </textarea>
+                <input type="submit" value="Submit">
             </form>
         </section>
     </section>
 
-    <footer id = "footer">
-        <p class = "text-center">Made With Love And Code By <a href = "">Phoenicorn</a></p>
+    <footer id="footer">
+        <p class="text-center">Made With Love And Code By <a href="">Phoenicorn</a></p>
     </footer>
 
 
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
-
+    <script src="./js/snap.js"></script>
+    <script src="./js/script.js"></script>
 </body>
 
 </html>
